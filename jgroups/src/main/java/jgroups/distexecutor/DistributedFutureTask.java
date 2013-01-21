@@ -4,8 +4,8 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
-import jgroups.distexecutor.DistributedExecutors.RequestType;
-import jgroups.distexecutor.DistributedExecutors.RequestTypeHeader;
+import jgroups.distexecutor.request.RequestType;
+import jgroups.distexecutor.request.RequestTypeHeader;
 
 import org.jgroups.Address;
 import org.jgroups.JChannel;
